@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side 3 test</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="main-header">
@@ -20,7 +20,12 @@
         </ul>
     </nav>
     <div class="cookie-clicker-game">
+        <h1>Amount of Cookies:</h1>
+        <h2 id="cookie-amount">
+            <!-- Fylles ut av JS -->
+        </h2>
         <img id="cookieImage" src="cookie_render.png" alt="">
+        <button id="upgradeOne">Double The Cookies - 50 Cookies.</button>
     </div>
 </body>
 </html>

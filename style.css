@@ -75,11 +75,21 @@
 
 .cookie-clicker-game {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 #cookieImage {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
 }
+
+
+#upgradeOne {
+    width: 100px;
+    height: 75px;
+    cursor: pointer;
+}
+
