@@ -1,3 +1,7 @@
+<?php
+echo "Dette er PHP!"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
